@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  padding: 0;
+}
+
+
+.body {
+background-color: #cfcfcf;
+background-size: contain;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+position: relative;
+z-index: 1;
+
+}
+
+
+
+.left-write-up {
+  width: 35%;
+  font-size: .8em;
+}
+
+h2,.blue-p,.left-btn,.right-btn,.lorem {
+  margin-top: 20px;
+}
+
+h2 {
+  color: red;
+}
+
+.blue-p,.blue-p-2 {
+  font-size: 2em;
+  font-family: sans-serif;
+  color: #04174b;
+  text-align: justify;
+}
+
+.left-btn {
+  border: 0;
+  outline:0;
+  background-color: red;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.right-btn {
+  border: 0;
+  outline:0;
+  background-color: transparent;
+  padding: 10px 30px;
+  color: #000;
+  border: 1px solid #646454;
+  border-radius: 3px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.ipad {
+  position: absolute;
+  bottom: 0;
+  right: 170px;
+
+}
+.wave-image {
+  width: 100%;
+  color:#aaaaa2;
+  position: absolute;
+  z-index:-1;
+  bottom: -14em;
+  height: 400px;
+
+}
