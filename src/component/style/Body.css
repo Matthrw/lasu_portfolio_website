@@ -4,27 +4,98 @@
   padding: 0;
 }
 
-
-.body {
-background-color: #cfcfcf;
-background-size: contain;
-height: 100%;
-display: flex;
-align-items: center;
-justify-content: space-around;
-position: relative;
-z-index: 1;
-
+.logo1 {
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  z-index: 1;
+  position: absolute;
+  transform: rotate(55deg);
+  margin-left: 7px;
+  margin-top: 2px;
+}
+.logo2 {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  z-index: 2;
+  position: absolute;
+  transform: rotate(25deg);
 }
 
+.header-container {
+  display: flex;
+  flex-direction: row;
+}
 
+.nav-container {
+  color: black;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-container h1 {
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+nav {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.nav-links {
+  margin-left: 350px;
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  margin-left: 50px;
+}
+.nav-links a:hover {
+  background-color: red;
+  color: white;
+  padding: 7px;
+}
+
+.primary-button {
+  color: black;
+  margin-left: 50px;
+  padding: 7px;
+  background-color: red;
+  color: white;
+  border-color: transparent;
+}
+
+.body {
+  background-color: #cfcfcf;
+  background-size: contain;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  z-index: 1;
+}
 
 .left-write-up {
   width: 35%;
-  font-size: .8em;
+  font-size: 0.8em;
 }
 
-h2,.blue-p,.left-btn,.right-btn,.lorem {
+h2,
+.blue-p,
+.left-btn,
+.right-btn,
+.lorem {
   margin-top: 20px;
 }
 
@@ -32,7 +103,8 @@ h2 {
   color: red;
 }
 
-.blue-p,.blue-p-2 {
+.blue-p,
+.blue-p-2 {
   font-size: 2em;
   font-family: sans-serif;
   color: #04174b;
@@ -41,7 +113,7 @@ h2 {
 
 .left-btn {
   border: 0;
-  outline:0;
+  outline: 0;
   background-color: red;
   padding: 10px 20px;
   color: #fff;
@@ -51,7 +123,7 @@ h2 {
 
 .right-btn {
   border: 0;
-  outline:0;
+  outline: 0;
   background-color: transparent;
   padding: 10px 30px;
   color: #000;
@@ -65,14 +137,26 @@ h2 {
   position: absolute;
   bottom: 0;
   right: 170px;
-
 }
 .wave-image {
   width: 100%;
-  color:#aaaaa2;
+  color: #aaaaa2;
   position: absolute;
-  z-index:-1;
+  z-index: -1;
   bottom: -14em;
   height: 400px;
+}
 
+.footer-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.footer-box p {
+  font-size: 30px;
+  margin: 70px;
+  color: #000;
 }
